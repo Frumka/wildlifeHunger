@@ -41,3 +41,4 @@ class Controller:
 i = Controller()
 i.createPlants()
 #githubCoopTestDone
+def setstage(this,wolfcount,sheepcount,treecount,bushcount):        this.wolfcount = wolfcount        this.sheepcount = shipcount        this.treecount = treecount        this.bushcount = bushcount        this.wolfxy = []        for i in range(wolfcount):            this.wolfx[i] = wolf            this.x = round(random.uniform(0,50),4)            this.y = round(random.uniform(0,50),4)            if this.x in this.wolfx and this.y in this.wolfy:                i-=1            else:                    this.wolfx[2*i] = round(random.uniform(0,50),4)                #Продолжить здесь!!!
